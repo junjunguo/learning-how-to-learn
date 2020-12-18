@@ -15,7 +15,7 @@ module.exports = {
     rules: [
       {
         include: [
-          path.resolve(__dirname, 'src/**/*.js')
+          path.resolve(__dirname, 'src/**/*.js'),
         ],
         test: /\.html$/i,
         use: [

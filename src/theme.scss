@@ -34,6 +34,10 @@ $cyan: #2aa198;
 $green: #859900;
 
 // Override theme settings (see ../template/settings.scss)
+$headingFont: 'Roboto', sans-serif;
+$headingLineHeight: 1.2;
+$headingTextTransform: none;
+
 $mainColor: $base00;
 $headingColor: $base01;
 $headingTextShadow: none;
@@ -42,13 +46,14 @@ $linkColor: $blue;
 $linkColorHover: lighten($linkColor, 20%);
 $selectionBackgroundColor: $magenta;
 
-$headingLineHeight: 1.2;
 
-$mainFontSize: 1rem;
-$heading1Size: 2.1rem;
-$heading2Size: 1.8rem;
-$heading3Size: 1.5rem;
-$heading4Size: 1.2rem;
+$mainFont: 'Lato', sans-serif;
+
+$mainFontSize: 1.2rem;
+$heading1Size: 2.3rem;
+$heading2Size: 2.1rem;
+$heading3Size: 1.8rem;
+$heading4Size: 1.5rem;
 
 .c-base0 {
   color: #839496;
