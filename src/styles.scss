@@ -1,0 +1,58 @@
+@import '../node_modules/reveal.js/css/reveal.scss';
+@import './theme';
+@import '../node_modules/reveal.js/plugin/highlight/monokai';
+
+.reveal p {
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 576px) {
+  $headingLineHeight: 1.3;
+
+  $mainFontSize: 1.2rem;
+  $heading1Size: 3rem;
+  $heading2Size: 2.5rem;
+  $heading3Size: 2rem;
+  $heading4Size: 1.5rem;
+
+  .reveal h1,
+  .reveal h2,
+  .reveal h3,
+  .reveal h4,
+  .reveal h5,
+  .reveal h6 {
+    margin: $headingMargin;
+    color: $headingColor;
+
+    font-family: $headingFont;
+    font-weight: $headingFontWeight;
+    line-height: $headingLineHeight;
+    letter-spacing: $headingLetterSpacing;
+
+    text-transform: $headingTextTransform;
+    text-shadow: $headingTextShadow;
+
+    word-wrap: break-word;
+  }
+
+  .reveal h1 {
+    font-size: $heading1Size;
+  }
+  .reveal h2 {
+    font-size: $heading2Size;
+  }
+  .reveal h3 {
+    font-size: $heading3Size;
+  }
+  .reveal h4 {
+    font-size: $heading4Size;
+  }
+
+  .reveal {
+    font-size: $mainFontSize;
+  }
+
+  .reveal p {
+    line-height: 1.6;
+  }
+}
