@@ -54,5 +54,10 @@ marked.use({ renderer, });
 
 const sections = substrFromFirstSection(marked(readMe));
 
-fs.writeFileSync('generated/sections.js', `export const sections = \`${sections}\`;`);
+const generated = "generated";
 
+if(!fs.existsSync(generated)) {
+    fs.mkdirSync(generated);
+}
+
+fs.writeFileSync(`${generated}/sections.js`, `export const sections = \`${sections}\`;`);
