@@ -9,6 +9,15 @@ marked.setOptions({ headerIds: false })
 const readMe = fs.readFileSync('README.md', 'utf-8');
 
 const renderer = {
+    paragraph(text) {
+        const regex = /\p{Emoji_Modifier_Base}\p{Emoji_Modifier}?|\p{Emoji_Presentation}|\p{Emoji}\uFE0F|🎟/gu;
+        if(text.match(regex)){
+            return `<p class="moji animated pulse">${text}</p>`
+        }else {
+            return `<p>${text}</p>`;
+        }
+        
+    },
     heading(text, level) {
         switch (level) {
             case 1:
@@ -38,15 +47,6 @@ const renderer = {
                     `
         }
     },
-    text(text) {
-        const regex = /\p{Emoji_Modifier_Base}\p{Emoji_Modifier}?|\p{Emoji_Presentation}|\p{Emoji}\uFE0F/gu;
-        if(text.match(regex)){
-            return `<p class="moji animated pulse">${text}</p>`
-        }else {
-            return `<p>${text}</p>`
-        }
-        
-    }
 }
 
 marked.use({ renderer, });
