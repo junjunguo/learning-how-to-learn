@@ -11,4 +11,4 @@ export const firstSection = `
     <span class="c-green">University of California San Diego</span>
   </p>
 </section>
-`
+`;

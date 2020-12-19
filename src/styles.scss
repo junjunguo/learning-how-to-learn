@@ -3,7 +3,10 @@
 @import "../node_modules/reveal.js/plugin/highlight/monokai";
 
 .reveal {
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     margin-bottom: 1rem;
   }
 
@@ -13,19 +16,15 @@
   }
 
   p {
-    margin: .5rem 0;
-  }
-
-  .moji {
-    font-size: 3rem;
+    margin: 0.5rem 0;
   }
 
   section > ul {
     margin-left: 0;
     padding-left: 1.5rem;
     list-style: circle;
-    padding-top: .6rem;
-    padding-bottom: .6rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
   }
 
   section > ul > li > ul {
@@ -105,6 +104,16 @@
   }
 }
 
+.moji-wrapper {
+  height: 4.25rem;
+  width: 4.25rem;
+  margin: 0 auto;
+}
+
+.moji {
+  font-size: 3rem;
+}
+
 .animated {
   animation-duration: 2s;
   transition-duration: 2s;
@@ -129,4 +138,20 @@
 .pulse {
   animation-name: pulse;
   animation-timing-function: ease-in-out;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotating {
+  animation-name: rotating;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  transform-origin: center;
 }

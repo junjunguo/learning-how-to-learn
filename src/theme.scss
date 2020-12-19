@@ -1,6 +1,6 @@
 // Default mixins and settings -----------------
-@import '../node_modules/reveal.js/css/theme/template/mixins';
-@import '../node_modules/reveal.js/css/theme/template/settings';
+@import "../node_modules/reveal.js/css/theme/template/mixins";
+@import "../node_modules/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
 
 // Include theme-specific fonts
@@ -34,7 +34,7 @@ $cyan: #2aa198;
 $green: #859900;
 
 // Override theme settings (see ../template/settings.scss)
-$headingFont: 'Roboto', sans-serif;
+$headingFont: "Roboto", sans-serif;
 $headingLineHeight: 1.1;
 $headingTextTransform: none;
 
@@ -46,8 +46,7 @@ $linkColor: $blue;
 $linkColorHover: lighten($linkColor, 20%);
 $selectionBackgroundColor: $magenta;
 
-
-$mainFont: 'Lato', sans-serif;
+$mainFont: "Lato", sans-serif;
 
 $mainFontSize: 1.2rem;
 $heading1Size: 2.3rem;
@@ -84,5 +83,5 @@ $heading4Size: 1.5rem;
 }
 
 // Theme template ------------------------------
-@import '../node_modules/reveal.js/css/theme/template/theme';
+@import "../node_modules/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
