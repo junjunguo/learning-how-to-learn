@@ -123,7 +123,7 @@ const sections = `<section>
                         <h3>
                             During sleep, our brain:
                         </h3><div class="moji-wrapper"><div class="moji animated rotating">🌀</div></div><ul>
-<li>Erase trivial memories. </li>
+<li>Erase trivial memories.</li>
 <li>Strengthen areas of importance.</li>
 <li>Rehearses some tougher parts we trying to learn.</li>
 <li>Going over and over neural patterns to deepen and strengthen them.</li>
@@ -151,12 +151,12 @@ const sections = `<section>
                     <section>
                         <h4>
                             Make a next day plan before sleep
-                        </h4>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🧚</div></div><p>so our subconscious, <em>diffuse</em> thinking processes can have a chance to help assist you in actually accomplishing the tasks the next day.</p>
                     </section>
                     <section>
                         <h4>
                             Too little sleep
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🤕</div></div><p>over too a long time is associated with headaches, depression, heart disease, diabetes, and dying earlier.</p>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🤕</div></div><p>over a too long time is associated with headaches, depression, heart disease, diabetes, and dying earlier.</p>
                     </section>
                 </section>
                 <section>                
@@ -245,14 +245,14 @@ const sections = `<section>
                     </section>
                     <section>
                         <h4>
-                            Like a tool we use,
+                            Like a tool we use
                         </h4><div class="moji-wrapper"><div class="moji animated pulse">🔧</div></div><p>if we understand it, know how to and when to use (not use), have a big picture of the tool, we can benefit most from it.</p>
                     </section>
                 </section>
                 <section>                
                     <section>
                         <h2>
-                            Avoid illusions of competence
+                            Illusions of competence
                         </h2><div class="moji-wrapper"><div class="moji animated pulse">🎈</div></div>
                     </section>
                     <section>
@@ -269,7 +269,15 @@ const sections = `<section>
                             When we have the book (or Google) open right in front of us
                         </h4><div class="moji-wrapper"><div class="moji animated pulse">📖</div></div><ul>
 <li>It provides the illusion that the material is also in our brain, <strong>but it&#39;s not.</strong></li>
-<li><em>Use recall, practice, or testing to gain better results.</em></li>
+</ul>
+
+                    </section>
+                    <section>
+                        <h4>
+                            Avoid illusions of competence
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">⛑</div></div><ul>
+<li><strong>Test</strong> ourselves on what we are learning, make sure we are not fooling ourselves.</li>
+<li><strong>Recall</strong> allowing us to see whether or not we really grasp the idea.</li>
 </ul>
 
                     </section>
@@ -281,14 +289,45 @@ const sections = `<section>
                         </h2><div class="moji-wrapper"><div class="moji animated pulse">💭</div></div>
                     </section>
                     <section>
-                        <h4>
-                            Using recall, mental retrieval of the key ideas, rather than passive rereading, will make study time more focused and effective.
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🔭</div></div><p>by recall and practicing material, we can learn more and deeper than any other study approach.</p>
+                        <h3>
+                            Using recall,
+                        </h3><p>mental retrieval of the key ideas, rather than passive rereading, will make study time more focused and effective.</p><div class="moji-wrapper"><div class="moji animated pulse">🔭</div></div><p>By recall and practicing material, we can learn more and deeper than any other study approach.</p>
                     </section>
                     <section>
                         <h4>
-                            Do not wait too long to practice recall, we do not want to start from scratch every time.
-                        </h4>
+                            Recall while outside our usual study place
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">⛰</div></div><p>Recalling material when outside usual place of study help us strengthen our grasp of material by viewing it from a different perspective.</p>
+                    </section>
+                    <section>
+                        <h4>
+                            Do not wait too long,
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">⌛</div></div><p>to practice recall, we do not want to start from scratch again.</p>
+                    </section>
+                </section>
+                <section>                
+                    <section>
+                        <h2>
+                            Testing
+                        </h2><div class="moji-wrapper"><div class="moji animated pulse">🌈</div></div><p>Testing is a powerful learning experience.</p><ul>
+<li>Take a test is more effective than study without it.</li>
+</ul>
+
+                    </section>
+                    <section>
+                        <h3>
+                            Mini tests
+                        </h3><div class="moji-wrapper"><div class="moji animated pulse">📚</div></div><p>Research has shown that testing during studies is one of the best ways to understand and retain information.</p><ul>
+<li>The test process becomes routine and a natural extension of the learning process.</li>
+</ul>
+
+                    </section>
+                    <section>
+                        <h3>
+                            Start hard, jump to easy
+                        </h3><div class="moji-wrapper"><div class="moji animated pulse">🧙</div></div><p>When we start solving problems, start first with the hardest one, when we get stuck, jump to another problem immediately.</p><ul>
+<li>When we switch our attention away, it allows the diffuse mode to begin its work, then come back with a <em>big picture</em> perspective.</li>
+</ul>
+
                     </section>
                 </section>
                 <section>                
@@ -299,7 +338,7 @@ const sections = `<section>
                     </section>
                     <section>
                         <h4>
-                            In software development
+                            In software development,
                         </h4><div class="moji-wrapper"><div class="moji animated rotating">⚙</div></div><p>rather than improving in one large batch, updates are often made continuously, piece by piece.</p>
                     </section>
                     <section>
@@ -329,7 +368,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Deliberate practice
-                        </h4><p>on the toughest aspects of the material, continuously.</p><ul>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🦸</div></div><p>on the toughest aspects of the material, continuously.</p><ul>
 <li>Can help lift average brains into the realm of those with natural gifts.</li>
 <li>Similar to lift heavier weights, which leads our muscles to grow bigger and quicker.</li>
 <li>We can also practice certain mental patterns that deepen and enlarge our minds.</li>
@@ -372,15 +411,17 @@ const sections = `<section>
 <li>We once fault thought that neurons in our brain wouldn&#39;t grow as adults.</li>
 <li>But we now know that in a few places, new neurons are born every day.</li>
 <li>One of these places is very important for learning.</li>
-<li>Exercise assists our brain to grow new neurons. </li>
+<li>Exercise assists our brain to grow new neurons.</li>
 </ul>
 
                     </section>
                     <section>
                         <h4>
                             New neurons help us learn new things
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🍂</div></div><p><em>but they will die if we do not use them.</em> </p><ul>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🍂</div></div><p><em>but they will die if we do not use them.</em></p><ul>
 <li>New experiences will rescue them.</li>
+<li>Learn new subject areas.</li>
+<li>Traval exotic foreign country, experience differents.</li>
 </ul>
 
                     </section>
