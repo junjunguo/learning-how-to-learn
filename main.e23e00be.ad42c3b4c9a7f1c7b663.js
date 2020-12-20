@@ -429,7 +429,9 @@ deck.initialize({
   controlsTutorial: true,
   progress: true,
   autoAnimate: true,
-  
+  autoSlide: 5000,
+  loop: false,
+  slideNumber: true,
 });
 
 
