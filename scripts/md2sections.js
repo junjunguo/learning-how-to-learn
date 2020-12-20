@@ -11,7 +11,7 @@ const readMe = fs.readFileSync("README.md", "utf-8");
 const renderer = {
   paragraph(text) {
     const regexRotating = /⚙|🌀/gu;
-    const regexPulse = /\p{Emoji_Modifier_Base}\p{Emoji_Modifier}?|\p{Emoji_Presentation}|\p{Emoji}\uFE0F|🏗|🗃|🎟/gu;
+    const regexPulse = /\p{Emoji_Modifier_Base}\p{Emoji_Modifier}?|\p{Emoji_Presentation}|\p{Emoji}\uFE0F|🏗|🗃|⛑|⛰|🎟/gu;
     let classNames = null;
 
     if (text.match(regexRotating)) {
