@@ -79,12 +79,14 @@ Long-term memory needs to be revisited occasionally to keep the memories accessi
 
 ### Create visual metaphors, analogies, and stories
 
-🐾
+🧜
 
 - To help remember and understand concepts.
 - To see something in our mind's eye.
 
 #### Helpful not only in art, and literature, but also allow the scientific, and engineering world to make progress.
+
+🐾
 
 Help to avoid being blocked by thinking about problems in the wrong ways.
 
@@ -105,14 +107,14 @@ Studies have shown that sleep is a vital part of memory and learning.
 
 #### Strength our ability to:
 
-🔓
+🕵
 
 - Figure out difficult problems.
 - Find meaning and understanding of what we are learning.
 
 ### Learning, try to understand or solve problems right before a nap or sleep
 
-😇
+👼
 
 - Increase the chance of dreaming about it.
 - Enhance our ability to understand it.
@@ -162,7 +164,7 @@ our diffuse mode can connect chunks in new ways to solve new problems.
 
 ### Chunking (how to form chunks)
 
-🥗
+🧙‍♂️
 
 #### Focus on the information we want to chunk
 
@@ -228,7 +230,7 @@ if we understand it, know how to and when to use (not use), have a big picture o
 
 #### Avoid illusions of competence
 
-⛑
+🚑
 
 - **Test** ourselves on what we are learning, make sure we are not fooling ourselves.
 - **Recall** allowing us to see whether or not we really grasp the idea.
@@ -247,7 +249,7 @@ By recall and practicing material, we can learn more and deeper than any other s
 
 #### Recall while outside our usual study place
 
-⛰
+🏖
 
 Recalling material when outside usual place of study help us strengthen our grasp of material by viewing it from a different perspective.
 
@@ -275,7 +277,7 @@ Research has shown that testing during studies is one of the best ways to unders
 
 ### Start hard, jump to easy
 
-🧙
+🧚‍♂️
 
 When we start solving problems, start first with the hardest one, when we get stuck, jump to another problem immediately.
 
@@ -320,7 +322,7 @@ Same as a workout, lift too heavy may physically hurt us, right technique, lift 
 
 #### Deliberate practice
 
-🦸
+⛷
 
 on the toughest aspects of the material, continuously.
 
