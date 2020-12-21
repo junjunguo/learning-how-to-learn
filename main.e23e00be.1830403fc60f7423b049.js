@@ -151,7 +151,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Make a next day plan before sleep
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🧚</div></div><p>so our subconscious, <em>diffuse</em> thinking processes can have a chance to help assist you in actually accomplishing the tasks the next day.</p>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🧚</div></div><p>so our subconscious, <em>diffuse</em> thinking processes can have a chance to help assist us in actually accomplishing the tasks the next day.</p>
                     </section>
                     <section>
                         <h4>
@@ -368,7 +368,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Deliberate practice
-                        </h4><p>⛷</p><p>on the toughest aspects of the material, continuously.</p><ul>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">⛷</div></div><p>on the toughest aspects of the material, continuously.</p><ul>
 <li>Can help lift average brains into the realm of those with natural gifts.</li>
 <li>Similar to lift heavier weights, which leads our muscles to grow bigger and quicker.</li>
 <li>We can also practice certain mental patterns that deepen and enlarge our minds.</li>
