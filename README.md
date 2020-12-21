@@ -123,7 +123,7 @@ Studies have shown that sleep is a vital part of memory and learning.
 
 🧚
 
-so our subconscious, *diffuse* thinking processes can have a chance to help assist you in actually accomplishing the tasks the next day.
+so our subconscious, *diffuse* thinking processes can have a chance to help assist us in actually accomplishing the tasks the next day.
 
 #### Too little sleep
 
