@@ -101,7 +101,7 @@ const sections = `<section>
                     <section>
                         <h3>
                             Create visual metaphors, analogies, and stories
-                        </h3><div class="moji-wrapper"><div class="moji animated pulse">🐾</div></div><ul>
+                        </h3><div class="moji-wrapper"><div class="moji animated pulse">🧜</div></div><ul>
 <li>To help remember and understand concepts.</li>
 <li>To see something in our mind&#39;s eye.</li>
 </ul>
@@ -110,7 +110,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Helpful not only in art, and literature, but also allow the scientific, and engineering world to make progress.
-                        </h4><p>Help to avoid being blocked by thinking about problems in the wrong ways.</p>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🐾</div></div><p>Help to avoid being blocked by thinking about problems in the wrong ways.</p>
                     </section>
                 </section>
                 <section>                
@@ -133,7 +133,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Strength our ability to:
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🔓</div></div><ul>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🕵</div></div><ul>
 <li>Figure out difficult problems.</li>
 <li>Find meaning and understanding of what we are learning.</li>
 </ul>
@@ -142,7 +142,7 @@ const sections = `<section>
                     <section>
                         <h3>
                             Learning, try to understand or solve problems right before a nap or sleep
-                        </h3><div class="moji-wrapper"><div class="moji animated pulse">😇</div></div><ul>
+                        </h3><div class="moji-wrapper"><div class="moji animated pulse">👼</div></div><ul>
 <li>Increase the chance of dreaming about it.</li>
 <li>Enhance our ability to understand it.</li>
 </ul>
@@ -192,7 +192,7 @@ const sections = `<section>
                     <section>
                         <h3>
                             Chunking (how to form chunks)
-                        </h3><div class="moji-wrapper"><div class="moji animated pulse">🥗</div></div>
+                        </h3><div class="moji-wrapper"><div class="moji animated pulse">🧙‍♂️</div></div>
                     </section>
                     <section>
                         <h4>
@@ -275,7 +275,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Avoid illusions of competence
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">⛑</div></div><ul>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🚑</div></div><ul>
 <li><strong>Test</strong> ourselves on what we are learning, make sure we are not fooling ourselves.</li>
 <li><strong>Recall</strong> allowing us to see whether or not we really grasp the idea.</li>
 </ul>
@@ -296,7 +296,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Recall while outside our usual study place
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">⛰</div></div><p>Recalling material when outside usual place of study help us strengthen our grasp of material by viewing it from a different perspective.</p>
+                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🏖</div></div><p>Recalling material when outside usual place of study help us strengthen our grasp of material by viewing it from a different perspective.</p>
                     </section>
                     <section>
                         <h4>
@@ -324,7 +324,7 @@ const sections = `<section>
                     <section>
                         <h3>
                             Start hard, jump to easy
-                        </h3><div class="moji-wrapper"><div class="moji animated pulse">🧙</div></div><p>When we start solving problems, start first with the hardest one, when we get stuck, jump to another problem immediately.</p><ul>
+                        </h3><div class="moji-wrapper"><div class="moji animated pulse">🧚‍♂️</div></div><p>When we start solving problems, start first with the hardest one, when we get stuck, jump to another problem immediately.</p><ul>
 <li>When we switch our attention away, it allows the diffuse mode to begin its work, then come back with a <em>big picture</em> perspective.</li>
 </ul>
 
@@ -368,7 +368,7 @@ const sections = `<section>
                     <section>
                         <h4>
                             Deliberate practice
-                        </h4><div class="moji-wrapper"><div class="moji animated pulse">🦸</div></div><p>on the toughest aspects of the material, continuously.</p><ul>
+                        </h4><p>⛷</p><p>on the toughest aspects of the material, continuously.</p><ul>
 <li>Can help lift average brains into the realm of those with natural gifts.</li>
 <li>Similar to lift heavier weights, which leads our muscles to grow bigger and quicker.</li>
 <li>We can also practice certain mental patterns that deepen and enlarge our minds.</li>
