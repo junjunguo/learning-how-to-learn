@@ -3,21 +3,28 @@ import HighLight from "reveal.js/plugin/highlight/highlight.esm.js";
 
 import "./styles.scss";
 import { firstSection } from "./firstSection";
-import { sections } from "../generated/sections";
 
+import { README } from "../generated/README";
+import { norsk } from "../generated/norsk";
+
+const fsTitleEn = "How to Become a More Effective Learner";
+const fsTitleNo = "Lære å lære";
+let activeLang = navigator.language;
 const containerEl = document.querySelector("#slider-container");
-containerEl.innerHTML = `${firstSection} ${sections}`;
+
+const fsno = `${firstSection(fsTitleNo, "english")} ${norsk}`;
+const fsen = `${firstSection(fsTitleEn, "bokmål")} ${README}`;
 
 const deck = new Reveal({
   plugins: [HighLight],
 });
+
 deck.initialize({
   width: "90%",
   height: "100%",
   margin: 0,
   minScale: 1,
   maxScale: 1,
-  //        autoSlide: 2000,
   controlsTutorial: true,
   progress: true,
   autoAnimate: true,
@@ -25,3 +32,25 @@ deck.initialize({
   loop: false,
   slideNumber: true,
 });
+
+const loadLanguage = () => {
+  if(activeLang == 'nb') {
+    containerEl.innerHTML = fsno;
+  } else {
+    containerEl.innerHTML = fsen;
+  }
+
+  const fsLangEl = document.querySelector('#fs-lang'); 
+  fsLangEl.addEventListener("click", () => {
+    activeLang = activeLang == 'nb' ? 'en' : 'nb'
+    loadLanguage();
+    
+    setTimeout(() => {
+      deck.next();
+    }, 66);
+  });
+
+}
+
+loadLanguage();
+

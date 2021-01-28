@@ -1,71 +1,84 @@
 const marked = require("marked");
 const fs = require("fs");
 
-const substrFromFirstSection = (str = "") =>
-  `${str.substr(str.indexOf("<section>"))}</section></section>`;
+const mdFileNames = process.argv.slice(2);
 
-marked.setOptions({ headerIds: false });
+const md2HtmlSections = (mdFileName = 'README', generatedFilePath = "generated") => {
 
-const readMe = fs.readFileSync("README.md", "utf-8");
+  const substrFromFirstSection = (str = "") =>
+    `${str.substr(str.indexOf("<section>"))}</section></section>`;
 
-const renderer = {
-  paragraph(text) {
-    const regexRotating = /⚙|🌀/gu;
-    const regexPulse = /\p{Emoji_Modifier_Base}\p{Emoji_Modifier}?|\p{Emoji_Presentation}|\p{Emoji}\uFE0F|🏗|🗃|🏖|⛷|🎟/gu;
-    let classNames = null;
+  marked.setOptions({ headerIds: false });
 
-    if (text.match(regexRotating)) {
-      classNames = `class="moji animated rotating"`;
-    } else if (text.match(regexPulse)) {
-      classNames = `class="moji animated pulse"`;
-    }
+  const mdFile = fs.readFileSync(`${mdFileName}.md`, "utf-8");
 
-    return classNames
-      ? `<div class="moji-wrapper"><div ${classNames}>${text}</div></div>`
-      : `<p>${text}</p>`;
-  },
-  heading(text, level) {
-    switch (level) {
-      case 1:
-        return "";
-      case 2:
-        return `
-                    </section>
-                </section>
-                <section>                
-                    <section>
-                        <h${level}>
-                            ${text}
-                        </h${level}>`;
-      case 3:
-      case 4:
-        return `
-                    </section>
-                    <section>
-                        <h${level}>
-                            ${text}
-                        </h${level}>`;
-      default:
-        return `
-                    <h${level}>
-                        ${text}
-                    </h${level}>
-                    `;
-    }
-  },
-};
+  const renderer = {
+    paragraph(text) {
+      const regexRotating = /⚙|🌀/gu;
+      const regexPulse = /\p{Emoji_Modifier_Base}\p{Emoji_Modifier}?|\p{Emoji_Presentation}|\p{Emoji}\uFE0F|🏗|🗃|🏖|⛷|🎟/gu;
+      let classNames = null;
 
-marked.use({ renderer });
+      if (text.match(regexRotating)) {
+        classNames = `class="moji animated rotating"`;
+      } else if (text.match(regexPulse)) {
+        classNames = `class="moji animated pulse"`;
+      }
 
-const sections = substrFromFirstSection(marked(readMe));
+      return classNames
+        ? `<div class="moji-wrapper"><div ${classNames}>${text}</div></div>`
+        : `<p>${text}</p>`;
+    },
+    heading(text, level) {
+      switch (level) {
+        case 1:
+          return "";
+        case 2:
+          return `
+                      </section>
+                  </section>
+                  <section>                
+                      <section>
+                          <h${level}>
+                              ${text}
+                          </h${level}>`;
+        case 3:
+        case 4:
+          return `
+                      </section>
+                      <section>
+                          <h${level}>
+                              ${text}
+                          </h${level}>`;
+        default:
+          return `
+                      <h${level}>
+                          ${text}
+                      </h${level}>
+                      `;
+      }
+    },
+  };
 
-const generated = "generated";
+  marked.use({ renderer });
 
-if (!fs.existsSync(generated)) {
-  fs.mkdirSync(generated);
+  const sections = substrFromFirstSection(marked(mdFile));
+
+  if (!fs.existsSync(generatedFilePath)) {
+    fs.mkdirSync(generatedFilePath);
+  }
+
+  fs.writeFileSync(
+    `${generatedFilePath}/${mdFileName}.js`,
+    `export const ${mdFileName} = \`${sections}\`;`
+  );
+
 }
 
-fs.writeFileSync(
-  `${generated}/sections.js`,
-  `export const sections = \`${sections}\`;`
-);
+const run = (mdFileNames) => {
+  console.log("MD file names: ", mdFileNames.join(", "));
+  for(filename of mdFileNames) {
+    md2HtmlSections(filename);
+  }
+}
+
+run(mdFileNames);

@@ -1,6 +1,6 @@
-export const firstSection = `
+export const firstSection = (title, lang)  => `
 <section>
-  <h1>How to Become a More Effective Learner</h1>
+  <h1 id="fs-title">${title}</h1>
   <p>
     Inspired by
     <strong class="c-yellow"> Learning How to Learn</strong>, a
@@ -10,5 +10,6 @@ export const firstSection = `
     <span class="c-cyan">McMaster University</span> and
     <span class="c-green">University of California San Diego</span>
   </p>
+  <p id="fs-lang">${lang}</p>
 </section>
 `;

@@ -32,6 +32,16 @@
   }
 }
 
+#fs-lang {
+  color: $base0;
+  transition-delay: 200ms;
+  transition-duration: 600ms;
+  &:hover {
+    cursor: pointer;
+    color: $blue;
+  }
+}
+
 @media screen and (min-width: 576px) {
   $heading1Size: 3rem;
   $heading2Size: 2.5rem;

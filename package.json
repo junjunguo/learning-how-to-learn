@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node ./scripts/md2sections.js",
+    "generate": "node ./scripts/md2sections.js README norsk",
     "dev": "npm run generate && webpack serve",
     "build": "npm run generate && webpack",
     "build:prod": "npm run generate && webpack --config webpack.prod.js"
