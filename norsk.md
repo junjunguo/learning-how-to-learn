@@ -70,7 +70,7 @@ Et arbeidsminne med fokus på det vi tenker på øyeblikkelig.
 
 Langtidsminne må av og til sees på nytt for å holde minnene tilgjengelige.
 
-### Lag visuelle metaforer, og historier
+### Lag visuelle metaforer, analogier, og historier
 
 🧜
 
